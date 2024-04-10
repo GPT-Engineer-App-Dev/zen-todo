@@ -1,15 +1,18 @@
 # zen-todo
 
-Implement a basic todo app with the following features:
+Please create a basic todo app with the following features:
 
-- An input field and button to add new todo items
-- A list showing existing todo items. Each item should show the todo text.
-- A way to mark todo items as completed. Completed items should be visually distinguished, for example with a checkmark or strikethrough.
-- A button to delete each todo item.
+- A header with the app name "My Todos" 
+- An input field to add new todos. Pressing Enter in this field should add the todo.
+- A list showing existing todos
+- Each todo should show the todo text, a checkbox to mark it as completed, an edit button, and a delete button
+- Checking the checkbox should mark the todo as completed (strike-through text)
+- Clicking the edit button should allow editing the todo text
+- Clicking the delete button should remove the todo 
+- Completed todos should appear at the bottom of the list
+- The list of todos should be stored in localStorage so they persist on page reload
 
-For now, the todo items don't need to be persisted between page refreshes. We can start with just storing them in memory.
-
-Use Chakra UI components where appropriate to make the UI look nice.
+You can use a simple unstyled UI for now, we'll improve the design in future iterations. The key thing is to get the basic functionality in place.
 
 ## Collaborate with GPT Engineer
 
